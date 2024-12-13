@@ -1,4 +1,4 @@
-
+La Tarea 1
 <p align="center">
     <!-- Primera imagen al 50% -->
     <img src="https://github.com/user-attachments/assets/e6ad62b7-5dc1-4f40-bbec-afd65bba2890" alt="Screenshot 1" width="25%">
