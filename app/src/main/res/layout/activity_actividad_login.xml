@@ -46,26 +46,29 @@
         app:layout_constraintVertical_bias="0.54">
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtUserLy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:startIconDrawable="@drawable/ic_user">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_user"
                 android:hint="Ingrese Cédula"
-                android:inputType="number|numberDecimal" />
+                android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtPassLy"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:translationY="65dp"
             app:endIconMode="password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/Password"
+                android:id="@+id/txtPass"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_password"
@@ -75,7 +78,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Iniciar Sesión"
